@@ -1,0 +1,33 @@
+    <div id="header-hero-container">
+        <header>
+            <div class="flex container">
+                <a id="logo" href="{{header.buttonlink}}">STATED.</a>
+                <nav>
+                    <button id="nav-toggle" class="hamburger-menu">
+                        <span class="strip"></span>
+                        <span class="strip"></span>
+                        <span class="strip"></span>
+                    </button>
+
+                    <ul id="nav-menu">
+                        <li><a routerLink="/Home" routerLinkActive="active">Home</a></li>
+                        <li><a routerLink="/Properties" routerLinkActive="active">Properties</a></li>
+                        <li><a routerLink="/Agents" routerLinkActive="active">Agents</a></li>
+                        <li><a routerLink="/About" routerLinkActive="active">About</a></li>
+                        <li><a routerLink="/Services" routerLinkActive="active">Services</a></li>
+                        <li><a routerLink="/Testimonials" routerLinkActive="active">Testimonials</a></li>
+                        <li><a routerLink="/Contact" routerLinkActive="active">Contact</a></li>
+                        <li id="close-flyout"><span class="fas fa-times"></span></li>
+                    </ul>
+                </nav> 
+            </div>
+        </header>
+    </div>
+
+	<section id ="hero">    
+        <div class="fade"></div>
+        <div class="hero-text">
+                <h1>{{header.heading}}</h1>
+                <p>{{header.desc}}</p>
+        </div>
+    </section>
